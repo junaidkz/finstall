@@ -2,7 +2,7 @@
 class logInfo:
 	data=[]
 	def getData(self):
-		with open('lgnin.inp','r') as fi:
+		with open('../assets/lgnin.inp','r') as fi:
 			for line in fi:
 				space=line.rstrip('\n')
 				self.data.append(space.split('\t'));
